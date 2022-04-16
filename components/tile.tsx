@@ -13,7 +13,7 @@ interface TileContextValue {
 
 export const TileContext = React.createContext<TileContextValue>({
     numOfPages: 0,
-    currentPage: 0
+    currentPage: 0,
 })
 
 export const TileWrapper: React.FC<WrapperProps> = ({ 
@@ -44,7 +44,7 @@ export const TileWrapper: React.FC<WrapperProps> = ({
     </TileContext.Provider>
      )
  }
- export const TileBackground: React.FC = ({ children }) => (
+export const TileBackground: React.FC= ({children }) => (
         <div className='absolute h-full w-full '>
             {children}
         </div>

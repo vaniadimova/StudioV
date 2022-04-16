@@ -1,5 +1,6 @@
 import React from 'react';
-import SliderContainer, { SliderItem } from './slider';
+import { SliderItem  } from './slider';
+import  SliderContainer  from './slider';
 import  Image from 'next/image'
 
 const ClientLogos: React.FC = () => (
