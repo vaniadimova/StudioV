@@ -3,7 +3,7 @@
     cursor: grab;
 }
 
-.viewport:global(.is-draggable) {
+.viewport:global(.is-dragging) {
     cursor: grabbing;
 }
 .container {
@@ -13,7 +13,7 @@
     flex: 0 0 auto;
     max-width: min(70%, 620px);
     opacity: 0.4;
-    transition: opacity 0.4s ;
+    transition: opacity 0.3s ;
 }
 .slide:global(.active) {
     opacity: 1;

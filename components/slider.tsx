@@ -10,13 +10,7 @@ interface Props {
     children: React.ReactNode
 
 }
-const SliderContainer: React.FC<Props> = ({
-    children ,
-    initialOffsetX, 
-     className, 
-     contentWidth, 
-   
-    }) => {
+const SliderContainer: React.FC<Props> = ({children,initialOffsetX, className, contentWidth, }) => {
     const { innerWidth } = useContext(SizeContext)
     const refScrollX = useRef<number>(initialOffsetX)
     const refContainer = useRef<HTMLDivElement>(null)
@@ -44,8 +38,8 @@ const SliderContainer: React.FC<Props> = ({
                 {children}
             </div>
             <div className={enabled ? 'inline-block' : 'hidden'}>
-{children}
-            </div>
+            {children}
+        </div>
    </div>         
     )
 }
@@ -56,7 +50,7 @@ interface ItemProps {
 }
 export const SliderItem: React.FC <ItemProps> = ({ children, width }) => (
     <div 
-    className='inline-flex justify-center items-center mx-4' 
+    className='inline-flex items-center justify-center mx-4' 
     style={{width}}
     >
      {children}
