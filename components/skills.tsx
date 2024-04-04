@@ -31,7 +31,7 @@ const Skills: React.FC = () => {
                 <div className='leading-[1.15]'>
                 <div className={s.skillText} style={{ opacity: opacityForBlock(progress, 0) }}>We know our tools inside out.</div>
                 <span className={`${s.skillsText} inline-block after:content-['_']`} style={{ opacity: opacityForBlock(progress, 1)}}>
-                    Our team has contributed 123 comits to React core, powering thousands of apps worldwide.</span>
+                    Our team created thousands of Art works with AI assistance.</span>
                     <span className={`${s.skillsText} inline-block `} style={{opacity: opacityForBlock(progress, 2)}}>
                         We&apos;re maintaining some of the most popular open-source projects, with
                         over <strong>1,234</strong> dawnloads.

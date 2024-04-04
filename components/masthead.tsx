@@ -35,16 +35,16 @@ const Masthead: React.FC = () => {
             duration-1000 ${imageLoaded ? 'opacity-100' : 'opacity-0'}`}
             >
                 <Image 
-                src={'/assets/logo.svg'} alt='logo' width={'128 / 3'}  height={'114 / 3'} />
+                src={'/assets/logo.svg'} alt='logo' width={140} height={220}  />
             </div>
             <div className='p-12 font-bold  z-10 text-white drop-shadow-[0_5px_3px_rgba(0,0,0,0.4)] text-center flex-1 flex items-center justify-center flex-col'>
-                <h1 className='mb-6 text-4xl xl:text-5xl'>Welcome to</h1>
-                <h1 className='mb-6 text-4xl xl:text-5xl'>Creative Studio V</h1>
+                <h1 className='mb-6 text-4xl xl:text-5xl'>Creative</h1>
+                <h1 className='mb-6 text-4xl xl:text-5xl'> Studio V</h1>
                 <h2 className='mb-2 text-2xl tracking-tight xl:text-3xl'>
-                    <span>Web </span> <span>Development</span>
+                    <span>Digital Art </span> <span> and </span>
                 </h2>
                 <h2 className='mb-2 text-2xl tracking-tight xl:text-3xl'>
-                    <span>&</span> <span>Internet Consultant Services</span>
+                    <span>&</span> <span>Web Development</span>
                 </h2>
             </div>
             <div className={`flex-grow-0 pb-20  md:pb-10 transition-all duration-1000 ${
@@ -57,8 +57,8 @@ const Masthead: React.FC = () => {
          <Image 
             src={'/assets/arrow-down.png'} 
             alt='scroll down' 
-            width={'188 / 3'} 
-            height={'105 / 3'} 
+            width="56" height="60"
+            
             onLoad={handleImageLoad}
             />      
          </Link>   

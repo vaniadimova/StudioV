@@ -12,7 +12,7 @@ return (
             </p>
         </div>
         <div className='container mx-auto text-center px-11 mt-28 '>
-            <h2>Our Team</h2>
+            <h2>Da Team</h2>
             <div className='mt-2'>the &ldquo;spec-ops&rdquo;</div>
             <div className='grid grid-cols-2 gap-6 mt-10 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 lg:gap-20'>
                 <Member 

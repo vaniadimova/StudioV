@@ -7,7 +7,7 @@ const Footer: React.FC = () => (
 <Image src="/assets/logo-w.png" alt="logo" width={18} height={18} />
 <Link href="/privacy">Privacy Policy</Link>
 <Link href="/terms">Terms of Service</Link>
-<Link href="https://vaniad.vercel.app/">www.vaniadimova.com</Link>
+<Link href="https://vaniad.vercel.app/">www.vaniad.com</Link>
 <Link href="https://github.com/vaniadimova">GitHub</Link>
 <Link href="https://twitter.com/12Dimov">Twitter</Link>
     </footer>
